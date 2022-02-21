@@ -16,5 +16,11 @@
           "32": "images/wjx_logo.png"
         },
         "default_title": "这是自定义的标题"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.wjx.cn/*"],
+        "js": ["autoSelect.js"]
       }
+    ]
 }
